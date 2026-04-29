@@ -1,0 +1,58 @@
+{
+  "accuracy": 0.9990330132663794,
+  "precision": 0.9952131351571288,
+  "recall": 0.9993270686630297,
+  "f1": 0.9972658592157333,
+  "confusion_matrix": [
+    [
+      193975,
+      200
+    ],
+    [
+      28,
+      41581
+    ]
+  ],
+  "top_features": [
+    {
+      "feature": "Average Packet Size",
+      "importance": 0.22998538613319397
+    },
+    {
+      "feature": "Bwd Packet Length Std",
+      "importance": 0.2056083232164383
+    },
+    {
+      "feature": "Packet Length Variance",
+      "importance": 0.17135316133499146
+    },
+    {
+      "feature": "Max Packet Length",
+      "importance": 0.09207940101623535
+    },
+    {
+      "feature": "Bwd Header Length",
+      "importance": 0.05019201338291168
+    },
+    {
+      "feature": "Fwd Packet Length Mean",
+      "importance": 0.047253284603357315
+    },
+    {
+      "feature": "Fwd Packet Length Max",
+      "importance": 0.03538486361503601
+    },
+    {
+      "feature": "FIN Flag Count",
+      "importance": 0.01583067514002323
+    },
+    {
+      "feature": "Packet Length Std",
+      "importance": 0.014862417243421078
+    },
+    {
+      "feature": "Fwd Header Length",
+      "importance": 0.013128474354743958
+    }
+  ]
+}
